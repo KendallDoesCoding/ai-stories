@@ -1,5 +1,4 @@
 * {
-  background-color: #f5f5f5;
   text-align: center;
 }
 
@@ -11,15 +10,21 @@ body {
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
+  background: rgb(175,174,228);
+  background: linear-gradient(90deg, rgba(175,174,228,0.32816876750700286) 35%, rgba(132,234,255,0.44021358543417366) 100%);
 }
 
 h2 {
   color: blue;
 }
 .heading {
-  color: lightcoral;
+  color: black;
 }
 
 .story-content {
   font-size: 25px;
+}
+.link{
+  text-decoration: none;
+  color: rgb(28, 0, 208)
 }
